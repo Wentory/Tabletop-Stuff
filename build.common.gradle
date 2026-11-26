@@ -1,0 +1,27 @@
+group = property('mod.group')
+version = property('mod.version')
+
+def loader = project.name == '1.20.1' ? 'forge' : 'neoforge'
+base.archivesName = "${property('mod.id')}-${project.name}-${loader}"
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('jar', Jar) {
+    from(rootProject.file('LICENSE'))
+}
+
+tasks.named('processResources', ProcessResources) {
+    def metadata = [
+        mod_id: project.property('mod.id'),
+        mod_name: project.property('mod.name'),
+        mod_version: project.property('mod.version'),
+        mod_authors: project.property('mod.authors'),
+        mod_license: project.property('mod.license')
+    ]
+    inputs.properties(metadata)
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
+        expand(metadata)
+    }
+}

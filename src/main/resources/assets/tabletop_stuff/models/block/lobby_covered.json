@@ -1,0 +1,80 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#1",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "to": [
+        9.33,
+        1.9975,
+        9.995000000000001
+      ],
+      "from": [
+        6.67,
+        1,
+        6.005
+      ]
+    }
+  ],
+  "textures": {
+    "2": "tabletop_stuff:block/null_deck/sides",
+    "particle": "tabletop_stuff:block/null_deck/sides",
+    "0": "tabletop_stuff:block/null_deck/back",
+    "1": "tabletop_stuff:block/null_deck/red_zero"
+  },
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/block"
+}

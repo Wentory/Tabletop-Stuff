@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.wentory.tabletopstuff.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["TableParticipantMixin", "TableProtectionMixin"],
+  "client": ["ButtonAccessor", "PlayerModelMixin", "ToastComponentMixin", "LobbyCameraMixin", "DevPlayerSkinMixin"],
+  "injectors": {"defaultRequire": 1}
+}

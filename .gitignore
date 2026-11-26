@@ -1,0 +1,25 @@
+# Build tools and outputs
+.gradle/
+**/build/
+out/
+/builds/*
+!/builds/README.md
+
+# Local Minecraft instances and sensitive/local data
+**/run/
+**/runs/
+**/logs/
+**/crash-reports/
+**/saves/
+**/local.properties
+.env
+.env.*
+!.env.example
+*.log
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store

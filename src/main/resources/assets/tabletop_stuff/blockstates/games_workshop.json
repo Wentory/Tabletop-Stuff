@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tabletop_stuff:block/games_workshop",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "tabletop_stuff:block/games_workshop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tabletop_stuff:block/games_workshop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tabletop_stuff:block/games_workshop",
+      "y": 270
+    }
+  }
+}

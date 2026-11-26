@@ -1,0 +1,1 @@
+{"variants":{"covered=false,deck_present=true":{"model":"tabletop_stuff:block/lobby"},"covered=true,deck_present=true":{"model":"tabletop_stuff:block/lobby_covered"},"deck_present=false":{"model":"tabletop_stuff:block/lobby_empty"}}}

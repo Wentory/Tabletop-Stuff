@@ -1,0 +1,18 @@
+{
+  "lobby.in": {"sounds": ["tabletop_stuff:lobby/in"]},
+  "lobby.out": {"sounds": ["tabletop_stuff:lobby/out"]},
+  "lobby.joined": {"sounds": ["tabletop_stuff:lobby/joined"]},
+  "lobby.left": {"sounds": ["tabletop_stuff:lobby/left"]},
+  "lobby.taked_seat": {"sounds": ["tabletop_stuff:lobby/taked_seat"]},
+  "cards.discard_collect": {
+    "sounds": ["tabletop_stuff:cards/discard_collect_01"]
+  },
+  "cards.shuffle_take": {"sounds": ["tabletop_stuff:cards/shuffle_take_01", "tabletop_stuff:cards/shuffle_take_02", "tabletop_stuff:cards/shuffle_take_03"]},
+  "cards.shuffle_insert": {"sounds": ["tabletop_stuff:cards/shuffle_insert_01", "tabletop_stuff:cards/shuffle_insert_02", "tabletop_stuff:cards/shuffle_insert_03"]},
+  "cards.card_take": {"sounds": ["tabletop_stuff:cards/card_take_01", "tabletop_stuff:cards/card_take_02", "tabletop_stuff:cards/card_take_03", "tabletop_stuff:cards/card_take_04", "tabletop_stuff:cards/card_take_05"]},
+  "cards.card_land": {"sounds": ["tabletop_stuff:cards/card_land_01", "tabletop_stuff:cards/card_land_02", "tabletop_stuff:cards/card_land_03"]},
+  "cards.hand_pickup": {"sounds": ["tabletop_stuff:cards/hand_pickup_01"]},
+  "cards.card_to_hand": {"sounds": ["tabletop_stuff:cards/card_to_hand_01", "tabletop_stuff:cards/card_to_hand_02", "tabletop_stuff:cards/card_to_hand_03", "tabletop_stuff:cards/card_to_hand_04"]},
+  "cards.fan_take": {"sounds": ["tabletop_stuff:cards/fan_take_01", "tabletop_stuff:cards/fan_take_02", "tabletop_stuff:cards/fan_take_03"]},
+  "cards.deck_place": {"sounds": ["tabletop_stuff:cards/deck_place_01"]}
+}
